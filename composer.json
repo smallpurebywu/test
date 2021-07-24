@@ -1,0 +1,32 @@
+{
+    "name": "pure/test",
+    "description": "this is a test",
+    "type": "project",
+    "require": {
+        "monolog/monolog": "^2.3",
+        "noahbuscher/macaw": "dev-master",
+        "symfony/var-dumper": "^5.3",
+        "twig/twig": "^3.3",
+        "catfan/medoo": "^2.1",
+        "topthink/think-orm": "^2.0"
+    },
+    "license": "1.0",
+    "autoload": {
+        "psr-4": {
+            "Pure\\": "app/"
+        },
+        "classmap": [
+            "extend/some"
+        ],
+        "files": [
+            "app/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "小纯洁",
+            "email": "smallpurebywu@126.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
