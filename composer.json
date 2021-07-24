@@ -1,5 +1,5 @@
 {
-    "name": "pure/test",
+    "name": "smallpure/test",
     "description": "this is a test",
     "type": "project",
     "require": {
