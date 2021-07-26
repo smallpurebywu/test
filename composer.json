@@ -10,7 +10,7 @@
         "catfan/medoo": "^2.1",
         "topthink/think-orm": "^2.0"
     },
-    "license": "1.0",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Pure\\": "app/"
